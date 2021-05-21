@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id='action_patient' model='ir.actions.act_window'>
+        <field name='name'>Patient</field>
+        <field name='res_model'>hospital.patient</field>
+        <field name='view_mode'>tree,form</field>
+    </record>
+
+    <menuitem 
+        id='menu_patient' 
+        action='action_patient' 
+        name='Patient'
+        parent='menu_hospital_main'
+        sequence='3'/>
+
+</odoo>

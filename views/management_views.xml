@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+    <menuitem 
+        id='menu_hospital_main'
+        name='ABC Hosptal'/>
+
+    <record id='action_management' model='ir.actions.act_window'>
+        <field name='name'>Management</field>
+        <field name='res_model'>hospital.management</field>
+        <field name='view_mode'>tree,form</field>
+    </record>
+
+    <menuitem 
+        id='menu_management' 
+        action='action_management' 
+        name='Management'
+        parent='menu_hospital_main'
+        sequence='1'/>
+
+</odoo>
