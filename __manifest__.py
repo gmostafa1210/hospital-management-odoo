@@ -6,6 +6,9 @@
     'description' : 'ABC Hosptal description.',
     'depends' : ['base'],
     'data' : [
+        'security/hospital_security.xml',
+        'security/ir.model.access.csv',
+
         'views/doctors_views.xml',
         'views/patient_views.xml',
         'views/medicine_views.xml',
