@@ -9,10 +9,10 @@
         'security/hospital_security.xml',
         'security/ir.model.access.csv',
 
+        'views/management_views.xml',
         'views/doctors_views.xml',
         'views/patient_views.xml',
         'views/medicine_views.xml',
-        'views/management_views.xml',
     ],
     'installable' : True,
     'application' : True,
